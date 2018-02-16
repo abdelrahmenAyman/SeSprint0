@@ -4,4 +4,11 @@ rm section3.1.txt
 git checkout -- section3.1.txt
 git commit -m "Added section files, removed section 3 and restored it."
 git push origin master
-
+git add AllMyCommands.txt 
+git stash
+git checkout master
+git merge ReadMe
+git commit -m "Merged branch ReadME into master"
+git stash apply
+git commit -m "AllMyCommands file done."
+git push origin master
