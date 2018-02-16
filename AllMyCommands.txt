@@ -1,0 +1,7 @@
+git clone https://github.com/darkCrakin/SeSprint0.git
+git add .
+rm section3.1.txt
+git checkout -- section3.1.txt
+git commit -m "Added section files, removed section 3 and restored it."
+git push origin master
+
